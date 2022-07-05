@@ -1,0 +1,101 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+ 
+}
+
+.navbar{
+background-color:rgba(0, 0, 0, 0.801);
+text-decoration: none;
+text-align: right;
+margin: 0px;
+
+}
+.navbar a{text-decoration: none;
+color: white;
+font-size: 20px;
+margin: 10px;
+}
+.name{text-align:left; color:rgb(226, 29, 39);margin-top: -2ch; font-size: 20px;font-variant:small-caps ; font-style: oblique; transition:transform 1s ;}
+
+.name:hover{
+    transform: translate(10px,10px);
+}
+.front{
+display:flex;justify-content: space-between;align-items: center;
+    height: 500px;
+    background-color:rgba(0, 0, 0, 0.788);
+color: white;
+
+}
+.h3{
+    margin-top: 10px;
+    margin-bottom: 50px;
+    margin-right: 400px;
+    margin-left: 100px;
+    font-size: xxx-large;font-style: oblique;
+    color: red;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    transition: transform 2s;
+    
+}
+.h3:hover{transform: translate(20px ,20px);}
+.h2{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-right: 50px;
+    margin-left: 100px;
+}
+
+.sss{
+    display:flex ;justify-content:space-between;margin: 30px;height: 300px; 
+    
+}
+.sasa{
+position: relative;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.asas{
+position: absolute;
+height: 100%;
+width: 100%;
+z-index: -1;
+
+
+}
+.sasa:hover{
+transform: scale(1.1)  ;
+
+}.icon{
+    display: flex;justify-content: space-between; align-items: center; margin-top: 50px ; 
+    
+    }
+#con:hover{
+
+    transform: scale(1.2);
+}
+.nn{
+
+
+    background: red;
+    transition: width 1s, height 1s;
+}
+
+#nn:hover{
+
+   transform: scale(1.1);
+  
+
+
+
+}
+
+
